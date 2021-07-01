@@ -69,3 +69,10 @@ html * {
 .Body {
     background-color:black;
 }
+
+.pdfviewer {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 5vw;
+    width: 10vw;
+}
