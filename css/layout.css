@@ -4,7 +4,6 @@ html * {
     padding: 0vw; 
    font-size: 1.7vw;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   transition: 0.3s;
    background-color: black;
 }
 
@@ -86,7 +85,7 @@ html * {
     font-size: 3vw;
     left: 40%;
     position:absolute;
-    width: 20vw;
+    width: 30vw;
     height:10vw;
     border-radius: 10px;
         -moz-border-radius: 10px;
