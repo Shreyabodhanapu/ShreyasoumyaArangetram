@@ -11,18 +11,11 @@
         <link href="./css/layout.css" rel="stylesheet">
         <script type='text/javascript'>
 
-            function LoadOnce()
+            function Load()
             {
-              if( window.localStorage )
-              {
-                if( !localStorage.getItem('firstLoad') )
-                {
-                  localStorage['firstLoad'] = true;
-                  window.location.reload();
-                }  
-                else
-                  localStorage.removeItem('firstLoad');
-              }
+                var image = new Image();
+                image.src = "Images/coverphoto.jpg";
+                image.onload = function() {context.drawImage(50,50)};
             
             };
             
