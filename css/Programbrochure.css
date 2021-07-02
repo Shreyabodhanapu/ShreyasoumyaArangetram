@@ -49,7 +49,7 @@ html * {
 
 }
 
-.cover img{
+.brochure img{
     width:100vw;
     height:100%;
     z-index: 100;
@@ -68,11 +68,4 @@ html * {
 
 .Body {
     background-color:black;
-}
-
-.pdfviewer {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    height: 100%;
-    width: 100vw;
 }
