@@ -3,12 +3,24 @@
 
     <head>
         <title>
-            My Website
+            Shreya and Soumya
         </title>
         <link href="./css/Programbrochure.css" rel="stylesheet">
+
+        <script type='text/javascript'>
+
+            function Load()
+            {
+                var image = new Image();
+                image.src = "Images/1.png";
+                image.onload = function() {context.drawImage(50,50)};
+            
+            };
+            
+            </script>
     </head>
 
-    <body>
+    <body onload="LoadOnce()">
         <div class="navbar"> 
             <ul>
                 <li>
