@@ -50,9 +50,10 @@ html * {
 }
 
 .cover img{
-    width:100vw;
-    height:100%;
+    width:60vw;
+    height:40%;
     z-index: 100;
+    margin-left: 20vw;
 
 }
 
@@ -102,10 +103,10 @@ html * {
 
 .footer img {
     margin-top:3vw;
-    width:60vw;
-    height:40vw;
+    width:40vw;
+    height:30vw;
     z-index: 100;
-    margin-left:21vw ;
+    margin-left:29.5vw ;
 
 }
 
